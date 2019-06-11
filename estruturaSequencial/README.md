@@ -31,19 +31,19 @@ em graus Farenheit.
 1.11 Faça um Programa que peça 2 números inteiros e um número real. Calcule e
 mostre:
 
-a. o produto do dobro do primeiro com metade do segundo .
-b. a soma do triplo do primeiro com o terceiro.
-c. o terceiro elevado ao cubo.
+* a. o produto do dobro do primeiro com metade do segundo .
+* b. a soma do triplo do primeiro com o terceiro.
+* c. o terceiro elevado ao cubo.
 
 1.12 Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que
-calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
+calcule seu peso ideal, usando a seguinte fórmula: ```(72.7*altura) - 58```
 
 1.13 Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um
 algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
 
-a. Para homens: (72.7*h) - 58
-b. Para mulheres: (62.1*h) - 44.7 (h = altura)
-c. Peça o peso da pessoa e informe se ela está dentro, acima ou abaixo do peso.
+* a. Para homens: (72.7*h) - 58
+* b. Para mulheres: (62.1*h) - 44.7 (h = altura)
+* c. Peça o peso da pessoa e informe se ela está dentro, acima ou abaixo do peso.
 
 
 1.14 João Papo-de-Pescador, homem de bem, comprou um microcomputador para
@@ -60,12 +60,11 @@ trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês,
 sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e
 5% para o sindicato, faça um programa que nos dê:
 
- a. salário bruto.
- b. quanto pagou ao INSS.
- c. quanto pagou ao sindicato.
- d. o salário líquido.
- e. calcule os descontos e o salário líquido, conforme a tabela
-abaixo:
+* a. salário bruto.
+* b. quanto pagou ao INSS.
+* c. quanto pagou ao sindicato.
+* d. o salário líquido.
+* e. calcule os descontos e o salário líquido, conforme a tabela abaixo:
 
 ```
 + Salário Bruto : R$
@@ -89,9 +88,9 @@ de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18
 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00.
 Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações:
 
-a. comprar apenas latas de 18 litros;
-b. comprar apenas galões de 3,6 litros;
-c. misturar latas e galões, de forma que o preço seja o menor.
+* a. comprar apenas latas de 18 litros;
+* b. comprar apenas galões de 3,6 litros;
+* c. misturar latas e galões, de forma que o preço seja o menor.
 
 Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
 
