@@ -1,4 +1,5 @@
-console.log("-----------------------------------------------------------------");
+console.log("------------------------------------------------------------------------------------------");
+console.log("----------[Question 1.11]-----------------------------------------------------------------");
 // 1.11 Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
 // a. o produto do dobro do primeiro com metade do segundo .
 // b. a soma do triplo do primeiro com o terceiro.
@@ -13,7 +14,9 @@ const playWithNumbers = (int1, int2, real) => {
 console.log(playWithNumbers(2, 2, 2));
 
 
-console.log("-----------------------------------------------------------------");
+
+console.log("------------------------------------------------------------------------------------------");
+console.log("----------[Question 1.12]-----------------------------------------------------------------");
 // 1.12 Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que
 // calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
 const weight = (height) => {
@@ -23,7 +26,9 @@ const weight = (height) => {
 console.log(weight(1.68));
 
 
-console.log("-----------------------------------------------------------------");
+
+console.log("------------------------------------------------------------------------------------------");
+console.log("----------[Question 1.13]-----------------------------------------------------------------");
 // 1.13 Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um
 // algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
 // * a. Para homens: (72.7*h) - 58
@@ -42,7 +47,9 @@ console.log(idealWeight(1.68, "F"));
 console.log(idealWeight(1.72, "M"));
 
 
-console.log("-----------------------------------------------------------------");
+
+console.log("------------------------------------------------------------------------------------------");
+console.log("----------[Question 1.14]-----------------------------------------------------------------");
 // 1.14 João Papo-de-Pescador, homem de bem, comprou um microcomputador para
 // controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de
 // peixes maior que o estabelecido pelo regulamento de pesca do estado de São
@@ -71,7 +78,9 @@ console.log(papoDePescador(45));
 console.log(papoDePescador(55));
 
 
-console.log("-----------------------------------------------------------------");
+
+console.log("------------------------------------------------------------------------------------------");
+console.log("----------[Question 1.15]-----------------------------------------------------------------");
 // 1.15 Faça um Programa que pergunte quanto você ganha por hora e o número de horas
 // trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês,
 // sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e
