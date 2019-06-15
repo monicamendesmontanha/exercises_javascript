@@ -77,3 +77,22 @@ const compraDeTintas = (area) => {
 console.log(compraDeTintas(30));
 
 // TODO: letra c
+
+
+
+console.log("------------------------------------------------------------------------------------------");
+console.log("----------[Question 1.18]-----------------------------------------------------------------");
+// 1.18 Faça um programa que peça o tamanho de um arquivo para download (em MB) e
+// a velocidade de um link de Internet (em Mbps), calcule e informe o tempo
+// aproximado de download do arquivo usando este link (em minutos).
+
+const downloadArquivo = (tamanho, velocidade) => {
+
+  const convert_velocidade = velocidade / 8
+  const tempo = tamanho / convert_velocidade
+  const convert_seg_em_min = tempo / 60
+
+  return `Um arquivo de ${tamanho} MB levará ${convert_seg_em_min.toFixed(2)} minutos para fazer download.`
+}
+
+console.log(downloadArquivo(800, 6));  // tamanho: 800 MB, velocidade: 6.0 Mbps
