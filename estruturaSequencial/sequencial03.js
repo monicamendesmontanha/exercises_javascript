@@ -12,7 +12,7 @@ console.log("----------[Question 1.16]------------------------------------------
 
 const VALOR_DA_LATA = 80
 const QUANTIDADE_DA_LATA = 18
-const VALOR_DO_LITRO_DA_LATA = VALOR_DA_LATA / QUANTIDADE_DA_LATA
+const VALOR_DO_LITRO = VALOR_DA_LATA / QUANTIDADE_DA_LATA
 
 const LITRO = 1
 const METROS_POR_CADA_LITRO = 3
@@ -44,3 +44,36 @@ console.log("----------[Question 1.17]------------------------------------------
 // * c. misturar latas e galões, de forma que o preço seja o menor.
 
 // Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
+
+const VALOR_POR_LATA = 80
+const LITROS_POR_LATA = 18
+const VALOR_DO_LITRO_DA_LATA = VALOR_POR_LATA / LITROS_POR_LATA
+
+const VALOR_POR_GALAO = 25
+const LITROS_POR_GALAO = 3.6
+const VALOR_DO_LITRO_DO_GALAO = VALOR_POR_GALAO / LITROS_POR_GALAO
+
+const UM_LITRO = 1
+const METRO_POR_UM_LITRO = 6
+const COBERTURA = UM_LITRO * METRO_POR_UM_LITRO
+
+
+const compraDeTintas = (area) => {
+
+  const quantidade_de_litros_a_comprar = COBERTURA * area
+
+  const quantidade_de_latas_a_comprar = quantidade_de_litros_a_comprar / LITROS_POR_LATA
+  const preco_pelas_latas = quantidade_de_latas_a_comprar * VALOR_POR_LATA
+
+  const quantidade_de_galoes_a_comprar = quantidade_de_litros_a_comprar / LITROS_POR_GALAO
+  const preco_pelos_galoes = quantidade_de_galoes_a_comprar * VALOR_POR_GALAO
+
+  return `
+    a. Apenas latas, total de $${preco_pelas_latas}.
+    b. Apenas galoes, total de $${preco_pelos_galoes}.
+  `
+};
+
+console.log(compraDeTintas(30));
+
+// TODO: letra c
