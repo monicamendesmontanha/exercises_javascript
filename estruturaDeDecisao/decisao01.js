@@ -50,3 +50,25 @@ console.log(verificaSexo("F"));
 console.log(verificaSexo("m"));
 console.log(verificaSexo("M"));
 console.log(verificaSexo("A"));
+
+
+console.log("-----------------------------------------------------------------------------------------");
+console.log("----------[Question 2.4]-----------------------------------------------------------------");
+// 2.4 Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+
+const vogalOuConsoante = (response) => {
+
+  const letra = response.toLowerCase()
+
+  if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u" ) {
+    return `A letra ${letra} é uma vogal!`
+  } else {
+    return `A letra ${letra} é uma consoante!`
+  }
+}
+
+
+console.log(vogalOuConsoante("a"))
+console.log(vogalOuConsoante("E"))
+console.log(vogalOuConsoante("b"))
+console.log(vogalOuConsoante("C"))
