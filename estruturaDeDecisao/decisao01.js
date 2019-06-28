@@ -13,6 +13,8 @@ const maiorNumero = (n1,n2) => {
 console.log(maiorNumero(5,3));
 console.log(maiorNumero(10,20));
 
+
+
 console.log("-----------------------------------------------------------------------------------------");
 console.log("----------[Question 2.2]-----------------------------------------------------------------");
 // 2.2 Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
@@ -27,3 +29,24 @@ const positivoOuNegativo = (valor) => {
 
 console.log(positivoOuNegativo(5));
 console.log(positivoOuNegativo(-10));
+
+
+console.log("-----------------------------------------------------------------------------------------");
+console.log("----------[Question 2.3]-----------------------------------------------------------------");
+// 2.3 Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+
+const verificaSexo = (sexo) => {
+  if (sexo == "F" || sexo == "f") {
+    return `${sexo} = Feminino`
+  } else if (sexo == "M" || sexo == "m") {
+    return `${sexo} = Masculino`
+  } else {
+    return `${sexo} = Sexo Inválido`
+  }
+}
+
+console.log(verificaSexo("f"));
+console.log(verificaSexo("F"));
+console.log(verificaSexo("m"));
+console.log(verificaSexo("M"));
+console.log(verificaSexo("A"));
