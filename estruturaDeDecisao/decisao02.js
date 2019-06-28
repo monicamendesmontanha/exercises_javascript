@@ -43,3 +43,23 @@ const maiorNumero = (num1, num2, num3) => {
 console.log(maiorNumero(5, 4, 3)); // 5
 console.log(maiorNumero(2, 50, 15)); // 50
 console.log(maiorNumero(1, 10, 150)); //150
+
+
+console.log("-----------------------------------------------------------------------------------------");
+console.log("----------[Question 2.7]-----------------------------------------------------------------");
+// 2.7 Faça um Programa que leia três números e mostre o maior e o menor deles.
+
+
+const menorNumero = (num1, num2, num3) => {
+  if (num1 < num2 && num1 < num3) {
+    return `${num1} é o menor número.`
+  } else if (num2 < num1 && num2 < num3) {
+    return `${num2} é o menor número.`
+  } else {
+    return `${num3} é o menor número.`
+  }
+}
+
+console.log(menorNumero(5, 4, 3)); // 3
+console.log(menorNumero(2, 50, 15)); // 2
+console.log(menorNumero(1, 10, 150)); // 1
