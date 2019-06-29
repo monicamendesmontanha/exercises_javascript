@@ -1,6 +1,6 @@
 console.log("-----------------------------------------------------------------------------------------");
 console.log("----------[Question 2.8]-----------------------------------------------------------------");
-// 2.8 Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+// 2.8 Make a program that asks the price of three products and tell which product you should buy, knowing that the decision is always for the cheapest.
 
 const produtoMaisBarato = (prod1, prod2, prod3) => {
 
