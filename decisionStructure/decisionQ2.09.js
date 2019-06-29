@@ -1,6 +1,6 @@
 console.log("-----------------------------------------------------------------------------------------");
 console.log("----------[Question 2.9]-----------------------------------------------------------------");
-// 2.9 Faça um Programa que leia três números e mostre-os em ordem decrescente.
+// 2.9 Make a Program that reads three numbers and shows them in descending order.
 
 
 const maiorNumero = (num1, num2, num3) => {
