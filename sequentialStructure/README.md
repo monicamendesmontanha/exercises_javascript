@@ -1,6 +1,6 @@
 ### 1. Sequential Structure
 
-1.1 Make a Program that shows the message "Alo Mundo" on the screen.
+1.1 Make a Program that shows the message "Hello World" on the screen.
 
 1.2 Make a Program that asks for a number and then displays the message "The number
 informed was [number]".
