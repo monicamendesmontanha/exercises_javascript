@@ -27,7 +27,7 @@
 2.11 The Tabajara Organizations have decided to increase their salaries and oppose them to develop the program that will calculate the readjustments.
 Make a program that receives the salary of a collaborator and the adjustment according to the following criterion, based on the current salary:
 
-* wages up to R $ 280.00 (including): increase of 20%
+* wages up to $ 280.00 (including): increase of 20%
 * salaries between R $ 280,00 and R $ 700,00: increase of 15%
 * salaries between R $ 700.00 and R $ 1500.00: increase of 10%
 * salaries of R $ 1500,00 onwards: increase of 5% After the increase is made, inform on the screen:
