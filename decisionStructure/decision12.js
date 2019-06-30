@@ -24,19 +24,10 @@ console.log(
 //         Net Salary: R $ 880,00
 
 
-
-// salario bruto = valor da hora * quantidade de horas
-// IR = saber valor do IR de acordo com o salario
-// INSS = saber valor do INSS de acordo com o salario
-// FGTS = saber valor do FGTS de acordo com o salario
-// DESCONTOS = somar IR INSS FGTS
-// salario liquido = diminuir o salario bruto com a quantidade somada de discontos
-
 const grossSalary = (valuePerHour, amountHours) => {
   const grossSalary = valuePerHour * amountHours
   return grossSalary
 }
-
 
 const rateIR = (salary) => {
 
@@ -67,8 +58,6 @@ const discountFGTS = (salary) => {
   return valueFGTS
 }
 
-
-
 const calculatePayroll = (valuePerHour, amountHours) => {
   const salary = grossSalary(valuePerHour, amountHours)
   console.log(`Gross Salary: $ ${salary.toFixed(2)}`);
@@ -88,7 +77,5 @@ const calculatePayroll = (valuePerHour, amountHours) => {
   const netSalary = salary - totalDiscount
   console.log(`Net Salary: ${netSalary.toFixed(2)}`)
 }
-
-
 
 calculatePayroll(5, 220);
