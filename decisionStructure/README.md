@@ -79,10 +79,10 @@ IR discount:
 
 2.16 Make a program that calculates the roots of a second-degree equation, in the form ax2 + bx + c. The program should ask for the values ​​of a, b and c and make the consistencies, informing the user in the following situations:
 ```
-The. If the user reports the value of A equal to zero, the equation is not of the second degree and the program should not ask for the other values, being closed;
-a. If the calculated delta is negative, the equation has no real roots. Inform the user and exit the program;
-b. If the calculated delta equals zero the equation has only one real root; inform the user;
-c. If the delta is positive, the equation has two real roots; inform them to the user;
+a. If the user reports the value of A equal to zero, the equation is not of the second degree and the program should not ask for the other values, being closed;
+b. If the calculated delta is negative, the equation has no real roots. Inform the user and exit the program;
+c. If the calculated delta equals zero the equation has only one real root; inform the user;
+d. If the delta is positive, the equation has two real roots; inform them to the user;
 ```
 
 2.17 Make a Program that asks for a number corresponding to a given year, and then report whether or not this year is leap year.
