@@ -89,10 +89,11 @@ d. If the delta is positive, the equation has two real roots; inform them to the
 
 2.18 Make a Program that asks for a date in the format dd / mm / yyyy and determine if it is a valid date.
 
-2.19 Make a Program that reads an integer less than 1000 and prints the number of hundreds, tens, and units of it.
-Looking at the plural terms the placement of the "e", the comma among others. Example:
-* 326 = 3 hundreds, 2 tens and 6 units
-* 12 = 1 tens and 2 units Test with: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7, and 16
+2.19 Make a Program that reads an integer less than 1000 and prints the number of hundreds, dozens, and units of it.
+Looking at the plural terms the placement of the "s", the comma among others. Example:
+* 326 = 3 hundreds, 2 dozens and 6 units
+* 12 = 1 dozen and 2 units
+Test with: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7, and 16
 
 2.20 Make a Program for reading a student's three partial notes. The program should calculate the average attained per student and present:
 ```
