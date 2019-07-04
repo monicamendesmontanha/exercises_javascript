@@ -95,7 +95,7 @@ Looking at the plural terms the placement of the "s", the comma among others. Ex
 * 12 = 1 dozen and 2 units
 Test with: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7, and 16
 
-2.20 Make a Program for reading a student's three partial notes. The program should calculate the average attained per student and present:
+2.20 Make a Program for reading a student's three partial scores. The program should calculate the average attained per student and present:
 ```
 a. The message "Approved", if the average is greater than or equal to 7, with the respective average reached;
 b. The message "Disapproved", if the average is less than 7, with the respective average reached;
