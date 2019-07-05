@@ -1,5 +1,4 @@
 <h1>JavaScript</h1>
-.
 
 📄 This is an exhaustive list of algorithms exercises that give me the chance to practice all the important fundamentals to understanding how JavaScript works.
 
