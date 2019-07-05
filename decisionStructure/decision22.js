@@ -1,9 +1,9 @@
-// console.log(
-//   "-----------------------------------------------------------------------------------------"
-// );
-// console.log(
-//   "----------[Question 2.22]----------------------------------------------------------------"
-// );
+console.log(
+  "-----------------------------------------------------------------------------------------"
+);
+console.log(
+  "----------[Question 2.22]----------------------------------------------------------------"
+);
 // 2.22 Make a Program that asks for an integer and determines whether it is even or odd. Tip: Use the module operator (remainder of the division).
 
 const isEven = (number) => {
