@@ -147,4 +147,4 @@ File Double      $ 4,90 per kg     $ 5,80 per kg
 Alcatra          $ 5,90 per kg     $ 6,80 per kg
 Picanha          $ 6,90 per kg     $ 7,80 per kg
 ```
-* In order to serve all customers, each client may take only one of the types of meat in the promotion, but there is no limit to the amount of meat per customer. If you buy for
+* In order to serve all customers, each customer may take only one of the types of meat in the promotion, but there is no limit to the amount of meat per customer. If purchase is made on the Tabajara card the customer will still receive a 5% discount on the total purchase. Write a program that asks for the type and quantity of meat purchased by the user and generates a tax coupon containing the purchase information: type and quantity of meat, total price, type of payment, amount of discount and amount payable.
