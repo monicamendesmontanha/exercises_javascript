@@ -19,16 +19,16 @@ const printTheNumber = (number) => {
   const sizeNumber = splitNumber.length
   // console.log(sizeNumber)
 
-  if (sizeNumber == 1) {
+  if (sizeNumber === 1) {
 
-    if (number == 1 || number == 0) {
+    if (number === 1 || number === 0) {
       return `${number} unit`
     } else {
       return `${number} units`
     }
   }
 
-  if (sizeNumber == 2) {
+  if (sizeNumber === 2) {
     if (splitNumber[0] <= 1) {
       return `${splitNumber[0]} dozen`
     } else {
@@ -36,7 +36,7 @@ const printTheNumber = (number) => {
     }
   }
 
-  if (sizeNumber == 3) {
+  if (sizeNumber === 3) {
     if (splitNumber[0] <= 1) {
       return `${splitNumber[0]} hundred`
     } else {
