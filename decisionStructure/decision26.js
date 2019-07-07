@@ -22,24 +22,29 @@ const LITER_OF_ALCOHOL = 1.90
 
 const alcohol = (amountLiters) => {
   const price = amountLiters * LITER_OF_ALCOHOL
+  const discountUpTo20 = 0.03
+  const discountaboveTo20 = 0.05
   let priceWithDiscount = 0
 
+
   if (amountLiters <= 20) {
-    priceWithDiscount = price - (price * 0.03)
+    priceWithDiscount = price - (price * discountUpTo20)
   } else if (amountLiters > 20) {
-    priceWithDiscount = price - (price * 0.05)
+    priceWithDiscount = price - (price * discountaboveTo20)
   }
   return `Total price: $ ${priceWithDiscount.toFixed(2)}`
 }
 
 const gasoline = (amountLiters) => {
   const price = amountLiters * LITER_OF_ALCOHOL
+  const discountUpTo20 = 0.04
+  const discountaboveTo20 = 0.06
   let priceWithDiscount = 0
 
   if (amountLiters <= 20) {
-    priceWithDiscount = price - (price * 0.04)
+    priceWithDiscount = price - (price * discountUpTo20)
   } else if (amountLiters > 20) {
-    priceWithDiscount = price - (price * 0.06)
+    priceWithDiscount = price - (price * discountaboveTo20)
   }
   return `Total price: $ ${priceWithDiscount.toFixed(2)}`
 }
@@ -58,6 +63,6 @@ console.log(fuelStation("A", 100));
 
 console.log(fuelStation("A", 15));
 
-console.log(fuelStation("G", 200));
+console.log(fuelStation("G", 100));
 
-console.log(fuelStation("G", 10));
+console.log(fuelStation("G", 15));
