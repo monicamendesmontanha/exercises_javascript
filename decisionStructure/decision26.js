@@ -16,29 +16,8 @@ console.log(
 // calculate and print the amount to be paid by the customer knowing that
 // the price of the liter of gasoline is R $ 2,50 the price of the liter of alcohol is R $ 1,90.
 
-
-const LITER_OF_GAS = 2.50
-const LITER_OF_ALCOHOL = 1.90
-
-const alcohol = (amountLiters) => {
-  const price = amountLiters * LITER_OF_ALCOHOL
-  const discountUpTo20 = 0.03
-  const discountaboveTo20 = 0.05
-  let priceWithDiscount = 0
-
-
-  if (amountLiters <= 20) {
-    priceWithDiscount = price - (price * discountUpTo20)
-  } else if (amountLiters > 20) {
-    priceWithDiscount = price - (price * discountaboveTo20)
-  }
-  return `Total price: $ ${priceWithDiscount.toFixed(2)}`
-}
-
-const gasoline = (amountLiters) => {
-  const price = amountLiters * LITER_OF_ALCOHOL
-  const discountUpTo20 = 0.04
-  const discountaboveTo20 = 0.06
+const priceFuel = (amountLiters, literPrice, discountUpTo20, discountaboveTo20) => {
+  const price = amountLiters * literPrice
   let priceWithDiscount = 0
 
   if (amountLiters <= 20) {
@@ -52,17 +31,19 @@ const gasoline = (amountLiters) => {
 const fuelStation = (typeFuel, amountLiters) => {
 
   if (typeFuel == "G") {
-    return gasoline(amountLiters)
+    let literPrice = 2.50
+    let discountUpTo20 = 0.03
+    let discountaboveTo20 = 0.05
+    return priceFuel(amountLiters, literPrice, discountUpTo20, discountaboveTo20)
   } else if (typeFuel == "A") {
-    return alcohol(amountLiters)
+    let literPrice  = 1.90
+    let discountUpTo20 = 0.04
+    let discountaboveTo20 = 0.06
+    return priceFuel(amountLiters, literPrice, discountUpTo20, discountaboveTo20)
   }
-
 }
 
 console.log(fuelStation("A", 100));
-
 console.log(fuelStation("A", 15));
-
 console.log(fuelStation("G", 100));
-
 console.log(fuelStation("G", 15));
