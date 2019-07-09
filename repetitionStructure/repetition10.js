@@ -12,8 +12,8 @@ const totalSum = (rangeList) => {
 
 
 const range = (start, end) => {
-  var list = [];
-  for (var i = start; i <= end; i++) {
+  let list = [];
+  for (let i = start; i <= end; i++) {
     list.push(i);
   }
 
