@@ -15,9 +15,9 @@ const largestNumber = (num1, num2, num3, num4, num5) => {
 console.log(largestNumber(1, 2, 3, 4, 5));
 console.log(largestNumber(5, 2, 10, 20, 1));
 console.log(largestNumber(50, 0, 1, 4, 3));
-
-
 console.log("*****************************")
+
+
 // 2. Using Math.max() - ARRAY
 // Getting the maximum element of an array - Using Math.max()
 const largestNumberInAnArray = (numbers) => {
@@ -27,10 +27,25 @@ const largestNumberInAnArray = (numbers) => {
 }
 
 console.log(largestNumberInAnArray([1, 2, 3, 4, 5]));
+console.log("*****************************")
+
 
 // 3. With a FOR loop
+const largerstOfArray = (numbers) => {
+
+  let largest = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > largest) {
+      largest = numbers[i]
+    }
+  }
+
+  return `The largest number is ${largest}.`
+}
+
+console.log(largerstOfArray([1, 2, 3, 4, 5]));
 
 
-// 4. Using the reduce() method
-// Array.reduce() can be used to find the maximum element in a numeric array, by comparing each value.
-// The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+// 4. With map() and reduce()
+// The map() method creates a new array with the results of calling a provided function on every element in this array. Using map will call a provided callback function once for each element in an array, in order, and constructs a new array from the results.
+// The reduce() method applies a function against an accumulator and each value of the array to reduce it to a single value.
