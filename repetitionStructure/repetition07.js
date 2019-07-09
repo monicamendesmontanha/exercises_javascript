@@ -64,10 +64,3 @@ const sortToFindthelargestElement = (array) => {
 
 console.log(sortToFindthelargestElement([5, 2, 0, 6, 1, 3]));
 console.log("*****************************")
-
-
-
-
-// 5. With map() and reduce()
-// The map() method creates a new array with the results of calling a provided function on every element in this array. Using map will call a provided callback function once for each element in an array, in order, and constructs a new array from the results.
-// The reduce() method applies a function against an accumulator and each value of the array to reduce it to a single value.
