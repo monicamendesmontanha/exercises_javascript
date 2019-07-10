@@ -10,6 +10,9 @@ console.log(
 // ...
 // 5 X 10 = 50
 
+///////////////////////////////
+// Solution 01 using While loop
+///////////////////////////////
 const tableGenerator = (number) => {
   let index = 1
   let end = 10
@@ -23,7 +26,26 @@ const tableGenerator = (number) => {
   }
 }
 
-console.log(tableGenerator(5));
+tableGenerator(5)
 console.log("***************");
-console.log(tableGenerator(8));
+
+
+
+
+
+/////////////////////////////
+// Solution 02 using FOR loop
+/////////////////////////////
+const table = (number) => {
+
+  for (let i = 1 ; i <= 10 ; i++) {
+    let result = number * i
+
+    console.log(`${number} * ${i} = ${result}`);
+  }
+
+}
+
+table(8)
+
 
