@@ -15,7 +15,6 @@ const isPrime = (number) => {
   return number > 1
 }
 
-console.log(isPrime(2)); // prime
 console.log(isPrime(3)); // prime
 console.log(isPrime(4));
 console.log(isPrime(5)); // prime
