@@ -55,7 +55,7 @@ Tabuada of 5:
 
 21. Make a program that asks for an integer and determines whether or not it is a prime number. A prime number is one that is divisible only by itself and by 1.
 
-22. Change the program of calculating prime numbers, stating if the number is not prime, by which number it is divisible.
+22. Change the program of calculation of prime numbers, informing if the number is not prime, by which number it is divisible.
 
 23. Make a program that shows all cousins ​​between 1 and N where N is an integer given by the user. The program should also show the number of divisions it ran to find the prime numbers. The operation, style and number of tests (divisions) performed will be evaluated.
 
