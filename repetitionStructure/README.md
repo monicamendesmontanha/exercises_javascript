@@ -57,7 +57,7 @@ Tabuada of 5:
 
 22. Change the program of calculation of prime numbers, informing if the number is not prime, by which number it is divisible.
 
-23. Make a program that shows all cousins ​​between 1 and N where N is an integer given by the user. The program should also show the number of divisions it ran to find the prime numbers. The operation, style and number of tests (divisions) performed will be evaluated.
+23. Make a program that shows all prime numbers ​​between 1 and N where N is an integer given by the user. The program should also show the number of divisions it ran to find the prime numbers. The operation, style and number of tests (divisions) performed will be evaluated.
 
 24. Make a program that calculates the arithmetic mean of N notes.
 
